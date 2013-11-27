@@ -48,13 +48,14 @@ class Sandipan_Productfileupload_Model_Observer
 					for($fi=0; $fi< count($_FILES['energy_guide_file']['name']); $fi++){
 						if($_FILES['energy_guide_file']['name'][$fi] != '') {
 							try {
-								
+
+                                $new_file_name = str_replace(' ', '_', $_FILES['energy_guide_file']['name'][$fi]);
 								$target_path = Mage::getBaseDir('media') . DS . 'productfileupload' . DS;
-								$target_path = $target_path . basename( $_FILES['energy_guide_file']['name'][$fi]); 
+								$target_path = $target_path . basename( $new_file_name );
 								
 								if(move_uploaded_file($_FILES['energy_guide_file']['tmp_name'][$fi], $target_path)) {
 									//$fdata = array();
-									$fdata['filename'] = $_FILES['energy_guide_file']['name'][$fi];
+									$fdata['filename'] = $new_file_name;
 									$fdata['productid'] = $product->getId();
 									$fdata['fileplace'] = 1;
 									$fmodel = Mage::getModel('productfileupload/productfileupload');		
