@@ -105,7 +105,12 @@ shell/abstract.php
 shell/compiler.php
 shell/indexer.php
 shell/log.php
-skin/adminhtml/default/default/
+skin/adminhtml/default/default/images/
+skin/adminhtml/default/default/lib/
+skin/adminhtml/default/default/media/
+skin/adminhtml/default/default/xmlconnect/
+skin/adminhtml/default/default/*.css
+skin/adminhtml/default/default/*.ico
 skin/adminhtml/default/enterprise
 skin/frontend/base/
 skin/frontend/default/blank/
