@@ -7,7 +7,10 @@ app/code/community/Cm/
 app/code/community/Find/
 app/code/community/Phoenix/
 app/code/core/
-app/design/adminhtml/default/default/
+app/design/adminhtml/default/default/layout/*
+!app/design/adminhtml/default/default/layout/productfileupload.xml
+app/design/adminhtml/default/default/template/*
+!app/design/adminhtml/default/default/template/productfileupload*
 app/design/adminhtml/default/find/
 app/design/frontend/base/
 app/design/frontend/default/blank/
