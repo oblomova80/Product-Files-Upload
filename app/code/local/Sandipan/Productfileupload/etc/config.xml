@@ -62,6 +62,15 @@
 	  </productfileupload>
 	</routers>
   </admin>
+	<frontend>
+		<layout>
+			<updates>
+				<productfileupload>
+				  <file>productfileupload.xml</file>
+				</productfileupload>
+			</updates>
+		</layout>
+	</frontend>
   <adminhtml>
     <events>
 	  <catalog_product_save_after> <!-- identifier of the event we want to catch -->
