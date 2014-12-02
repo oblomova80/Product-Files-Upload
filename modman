@@ -1,0 +1,9 @@
+app/code/local/Sandipan/Productfileupload   				app/code/local/Sandipan/Productfileupload
+app/design/adminhtml/default/default/layout/productfileupload.xml	app/design/adminhtml/default/default/layout/productfileupload.xml
+app/design/adminhtml/default/default/template/productfileupload		app/design/adminhtml/default/default/template/productfileupload
+app/design/frontend/default/default/layout/productfileupload.xml	app/design/frontend/default/default/layout/productfileupload.xml
+app/design/frontend/default/default/template/productfileupload		app/design/frontend/default/default/template/productfileupload
+app/etc/modules/Sandipan_Productfileupload.xml				app/etc/modules/Sandipan_Productfileupload.xml
+media/productfileupload							media/productfileupload
+skin/adminhtml/default/default/productfileupload			skin/adminhtml/default/default/productfileupload
+
